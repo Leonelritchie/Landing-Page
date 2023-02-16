@@ -5,8 +5,8 @@ Landing page Project from skills learned
  Can still do all things through christ
 
  16th-feb-2023
- -Updated with Image
- -Completed footer
- -Cleaned up
- -Prioritized commenting and documentation.
+ -Updated with Image  
+ -Completed footer  
+ -Cleaned up  
+ -Prioritized commenting and documentation.  
  -Kept on using git.

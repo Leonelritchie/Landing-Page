@@ -1,0 +1,168 @@
+body{
+    height: 100vh;
+    margin: 0;
+    overflow:visible;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    padding:100px 200px;
+    padding-top: 10px;
+    background-color:#1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:16px;
+    color: honeydew;
+    padding: 0;
+    margin-top: 15px;
+    gap:50px;
+    align-items:center;
+}
+.headerlogo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color:honeydew;
+
+}
+ul{
+    display: flex;
+    gap: 14px;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.hero{
+    display:flex;
+    margin-top:50px;
+    gap:20px;
+}
+.herotext{
+    font-size:48px ;
+    font-weight: 600;
+    margin: 0;
+}
+.heroimage{
+    height: 200px;
+    background-color: rgb(241, 239, 239);
+    width: 500px;
+    border-radius: 12px;
+}
+.action{
+    display:flex;
+    flex-direction: column;
+    padding-right: px;
+    color:#f9faf8;
+}
+.signup{
+    width: 100px;
+    height:40px;
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 13px;
+    color: #f9faf8;
+    font-size: 16px;
+}
+
+/** this covers the packages section**/
+.packages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:40px;
+}
+.offtext{
+    font-size: 30px;
+    font-weight: 700;
+}
+.offers{
+    display: flex;
+    gap:20px;
+}
+.offerlist{
+    display: flex;
+    flex-direction: column;
+    max-width:150px;
+    align-items: center;
+    text-align: center;
+}
+.offerimage{
+    height: 150px;
+    width:150px;
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    margin-top:20px;
+}
+
+/**This is the testimonial section**/
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding:100px 250px 100px 250px;
+
+}
+.quotetext{
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 300;
+}
+.customername{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+}
+.customername::before{content: "-"; 
+}
+
+/**This addresses the call to action section*/
+
+.cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding:15px 100px 15px 100px;
+    margin: 30px 200px 30px 200px;
+}
+.ctatext{
+    display:flex;
+    flex-direction: column;
+    color: #f9faf8;
+}
+.signupb{
+    background-color: #3882f6;
+    border: 2px solid #eff0f3;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 16px;
+    height:35px;
+    width:100px;
+}
+.nocharge,.register{
+    margin: 0;
+    padding:0;
+}
+.nocharge{
+    font-weight: 200;
+}
+.footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:#e5e7eb;
+
+   background-color: #1f2937;
+}

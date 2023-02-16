@@ -6,11 +6,14 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+.contain{
+    display:flex;
+    flex-direction: column;
+}
 .top{
     display: flex;
     flex-direction: column;
-    padding:100px 200px;
+    padding:100px 150px;
     padding-top: 10px;
     background-color:#1f2937;
 }
@@ -44,34 +47,51 @@ ul{
 }
 .hero{
     display:flex;
-    margin-top:50px;
+    margin-top:100px;
     gap:20px;
+    justify-content: space-between;
 }
 .herotext{
     font-size:48px ;
     font-weight: 600;
     margin: 0;
+    max-width: 450px;
+}
+.htsm{
+    max-width: 450px;
+    height:auto;
+    font-weight: 300;
+    margin: 5px;
+    font-size: 24px;
+    margin-bottom: 30px;
 }
 .heroimage{
-    height: 200px;
-    background-color: rgb(241, 239, 239);
-    width: 500px;
+    max-height: auto;
+    max-width: 400px;
     border-radius: 12px;
 }
+.heroimg{
+  max-width:100%;
+  height:auto;
+  border-radius: 10px;
+}
+
 .action{
     display:flex;
     flex-direction: column;
     padding-right: px;
     color:#f9faf8;
+
 }
 .signup{
-    width: 100px;
-    height:40px;
+    width: 250px;
+    height:50px;
     background-color: #3882f6;
     border-style: none;
     border-radius: 13px;
     color: #f9faf8;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight:400;
 }
 
 /** this covers the packages section**/
@@ -156,13 +176,18 @@ ul{
     padding:0;
 }
 .nocharge{
-    font-weight: 200;
+    font-weight: 300;
+    font-size: 22;
 }
+
+/** This section is for the footer*/
 .footer{
    display: flex;
    justify-content: center;
    align-items: center;
    color:#e5e7eb;
+   padding-top: 20px;
+   padding-bottom: 20px;
 
    background-color: #1f2937;
 }
